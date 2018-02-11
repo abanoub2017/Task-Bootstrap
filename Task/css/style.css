@@ -1,0 +1,143 @@
+/********** Start NavBar ***************/
+
+/*Main Navbar*/
+
+navbar{
+    min-height: 70px;
+}
+
+.navbar-default{
+    background-color:#31B0D5 ;
+}
+
+/* NavBar Bran */
+
+.navbar-default .navbar-brand{ 
+    color:#fff ;
+    font-size:34px; 
+    line-height: 43px;
+}
+
+
+.navbar-default .navbar-brand span{
+    color:#fff;
+}
+
+/* NavBar Active */
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{ 
+    color: #fff;
+    background-color:crimson;
+
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    line-height: 42px;
+    font-size: 17px;
+     -webkit-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+   
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+     font-size: 20px;
+    background-color:crimson;
+}
+
+/* NavBar Dropdwon */
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background-color:crimson;
+    color: #fff;
+}
+
+
+.navbar-nav > li > .dropdown-menu{
+   
+    min-width: 200px;
+    
+}
+
+.dropdown-menu > li > a{
+    padding: 6px 20px;
+    -webkit-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    transition: padding .5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    color: #fff;
+    background-color:black;
+    padding-left: 15px;
+}
+
+.dropdown-menu .divider{
+  border: .5px solid crimson;
+}
+
+.navbar-toggle{
+    margin-top: 18px;
+}
+
+
+/********** end NavBar ***************/
+
+/********** Start Carousel (slider) ***************/
+
+.carousel-caption {
+    bottom: 97px;
+    background-color: rgba(0,0,0,.3);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.carousel-caption p {
+    
+    line-height:1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** End Carousel (slider) ***************/
+
+
+
+
+
+
+
+
+
+
