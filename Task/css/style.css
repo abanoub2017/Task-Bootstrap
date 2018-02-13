@@ -1,3 +1,8 @@
+body{
+    padding-top: 70px;
+    height: 1200px;
+}
+
 /********** Start NavBar ***************/
 
 /*Main Navbar*/
@@ -104,6 +109,109 @@ navbar{
 }
 
 
+
+ /* Start Section About */
+
+.about{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.about h1{
+    font-weight: bold;
+}
+.about span {
+    color:#E41B17;
+}
+
+.about .lead {
+    color:#888 ;
+    font-size:25px;
+    margin-top: 15px;
+}
+
+  /* End Section About */
+ 
+  /* Start Section Features*/
+
+.features {
+    background-color: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features h1{
+    padding-bottom: 50px;
+}
+
+.features .feat {
+    margin-bottom: 30px;
+}
+
+.features .feat span.glyphicon{
+    font-size: 25px;
+    color: #666;
+    padding-bottom: 10px
+}
+
+.features .feat p {
+    line-height: 2em;
+}
+  /* End Section Features*/
+
+  /* Start Testimonials*/
+.testimonials{
+    padding-top: 50px;
+    padding-bottom:50px; 
+}
+
+
+.testimonials h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.testimonials .lead {
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+
+.testimonials span {
+    color:#E41B17 ;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.testimonials .carousel-inner{
+    min-height: 160px;
+}
+
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border: 3px solid #E41B17;
+    border-radius:50%;
+    opacity: .5;
+   
+}
+.testimonials .carousel-indicators .active{
+    margin-top: 20px;
+    height: 80px;
+    width: 80px;
+    opacity: 1;
+    background: none;
+}
+.testimonials .carousel-indicators li img{
+    max-width: 100%
+}
+  /* End Testimonials*/
 
 
 
