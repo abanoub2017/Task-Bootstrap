@@ -1,6 +1,6 @@
 body{
     padding-top: 70px;
-    height: 1200px;
+    height: 4000px;
 }
 
 /********** Start NavBar ***************/
@@ -124,7 +124,7 @@ navbar{
 }
 
 .about .lead {
-    color:#888 ;
+    color:#666 ;
     font-size:25px;
     margin-top: 15px;
 }
@@ -213,6 +213,90 @@ navbar{
 }
   /* End Testimonials*/
 
+
+ /* Start Section Price Table*/
+
+.price-table{
+    background-color: #eee;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.price-table h1 {
+    margin-bottom: 30px;
+    
+}
+
+.price-table .price-box{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.price-table .price-box h2{
+    margin: 5px 0 15px;
+}
+
+.price-table .price-box p{
+    font-size:35px;
+    font-weight: bold;
+    color: #666;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    -webkit-transition-duration:0.7s;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+     transition-duration:0.7s;
+    border: 2px solid #FFF;
+    
+}
+.price-table .price-box p:hover{
+    -webkit-transform:scale(1.1,1.1) rotate(356deg);
+    -moz-transform:scale(1.1,1.1) rotate(356deg);
+    -o-transform:scale(1.1,1.1) rotate(356deg);
+    transform:scale(1.1,1.1) rotate(356deg);
+    border: 2px solid #DFDFDF;
+}
+.price-table .price-box ul{
+    line-height:250%;
+    font-size: 18px;
+}
+.price-table .price-box a{
+    margin-bottom: 5px;
+}
+   /* End Section Price Table*/
+ 
+  /* Start Section Our Team */
+
+.our_team{
+    
+    background: url('../imgs/3d-wallpapers-for-desktop-hd-1080p-12.jpg') no-repeat center center fixed;
+    min-height: 600px;
+    background-size: cover; 
+}
+
+.our_team .team {
+    min-height:600px;
+    padding-bottom: 40px;
+    padding-top: 40px; /*Note Min Height*/
+    color: #fff;
+    background-color: rgba(2,2,2,0.7);
+   
+    
+}
+.our_team .team h1 {
+    margin-bottom:60px;
+}
+
+.our_team .person{
+    margin-bottom: 40px;
+}
+
+  /* End Section Our Team */
 
 
 
